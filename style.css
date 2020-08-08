@@ -1,0 +1,88 @@
+body{
+    font-family: sans-serif;
+    max-width: 1024px;
+    margin: auto;  
+}
+
+.header{
+    background-color: lightcoral;
+    height: 46px;
+}
+
+.header nav li, .header>div{
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+}
+.header li a, .header>div{
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: solid rgb(204, 123, 204);
+}
+#right{    
+    float: right;  
+    color: white;
+}
+.header a:link{
+    text-decoration: none; 
+}
+.header a:visited {
+    text-decoration: none;
+}
+.header a:hover {
+    background-color: wheat;
+}
+.columns{
+    display: table;
+}
+.column{
+    display: table-cell;
+    float: left; 
+}
+.column.middle{
+    background-color: wheat;
+    width: 70%;
+}
+.headline{
+    font-size: 40px;
+}
+#subtext{
+    height: 100px;
+}
+.article{
+    width: 50%;
+    float: left;
+}
+.column.side{
+    background-color: rgb(220, 233, 195);
+    width: 30%;
+}
+#columns:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.login-section{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: thistle;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
+
+
